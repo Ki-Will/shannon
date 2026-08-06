@@ -14,7 +14,7 @@
     "./config": "./dist/config-parser.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "check": "tsc --noEmit",
     "clean": "rm -rf dist"
   },
